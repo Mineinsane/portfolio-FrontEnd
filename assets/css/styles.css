@@ -1,0 +1,40 @@
+/* ETIQUETAS van con directamente el nombre */
+/* CLASES va con "." adelante */
+/* ID va con "#" adelante */
+
+body {
+background-color: rgb(216, 166, 66);
+color:rgb(255, 255, 255);
+}
+#redes{
+text-align: center;
+margin: auto;
+}
+#about{
+    text-align: center;
+    margin: auto;
+}
+#experiencia{
+    text-align: center;
+    margin: auto;
+}
+#habilidades{
+    text-align: center;
+    margin: auto;
+}
+#educacion{
+    text-align: center;
+    margin: auto;
+}
+#proyectos{
+    text-align: center;
+    margin: auto;
+}
+#hobbies{
+    text-align: center;
+    margin: auto;
+}
+#contacto{
+    text-align: center;
+    margin: auto;
+}
