@@ -10,31 +10,18 @@ color:rgb(255, 255, 255);
 text-align: center;
 margin: auto;
 }
-#about{
-    text-align: center;
+.seccion{
+    text-align: left;
     margin: auto;
 }
-#experiencia{
-    text-align: center;
-    margin: auto;
+ul li{
+    list-style-type: none;
+    margin-left: -2.5%;
 }
-#habilidades{
-    text-align: center;
-    margin: auto;
+#nombre{
+    font-size: 4rem;
+    color: black;
 }
-#educacion{
-    text-align: center;
-    margin: auto;
-}
-#proyectos{
-    text-align: center;
-    margin: auto;
-}
-#hobbies{
-    text-align: center;
-    margin: auto;
-}
-#contacto{
-    text-align: center;
-    margin: auto;
+.derecha{
+    float: right;
 }

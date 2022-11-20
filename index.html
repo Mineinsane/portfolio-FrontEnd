@@ -1,89 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/6edcfcfe1d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/styles.css">
-    <title>Index Principal</title>
+    <title>Maqueta</title>
 </head>
+
 <body>
- <!--Redes Sociales-->   
-    <section id="redes">
-        <h2>Redes Sociales</h2>
-        <ul>
-            <li><img src="assets\img\IN logo.png" width="25" height="25" alt="Logo LinkedIn">
-                <br>
-                <a href="https://www.linkedin.com/in/demian-morozovich/" target="_blank" > </a>LinkedIn</a>
-            </li>
-            <li><img src="assets\img\Hub logo.png" width="25" height="25" alt="Logo GitHub">
-                <br>
-                <a href="https://github.com/Mineinsane" target="_blank" > </a>GitHub</a>
-            </li>
-        </ul>
+    <!--Navbar-->
+    <nav class="navbar navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="assets\img\Arg Programa.png" alt=""></a>
+
+            <div class="d-flex justify-content-end">
+
+                <!--Redes Sociales-->
+                <ul class="list-group list-group-horizontal-lg">
+                    <li class="list-group-item"><i class="fa-brands fa-linkedin-in"></i></li>
+                    <li class="list-group-item"><i class="fa-brands fa-github"></i></li>
+                    <li class="list-group-item"><i class="fa-brands fa-codepen"></i></li>
+                </ul>
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#LoginModal">
+                    Iniciar Sesion
+                </button>
+                <!--Boton Cerrar Sesion-->
+                <button type="button" class="btn btn-danger">
+                    Cerrar Sesion
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!--Header con nombre-->
+    <section class="seccion">
+        <h1 id="nombre">Demian Morozovich</h1>
     </section>
- <!--Seccion Sobre Mi-->   
-    <section id="about">
+
+    <!--Seccion Sobre Mi-->
+    <section class="seccion">
         <h2>Sobre Mi</h2>
         <div>
+            <img src="" alt="Imagen Perfil">
+        </div>
+        <div>
             <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit ad nam sapiente quibusdam suscipit ullam, aut unde ipsam hic, excepturi ipsum quas odit officiis odio sint aspernatur. Officia, quibusdam voluptatem!
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit ad nam sapiente quibusdam suscipit
+                ullam, aut unde ipsam hic, excepturi ipsum quas odit officiis odio sint aspernatur. Officia, quibusdam
+                voluptatem!
             </p>
         </div>
     </section>
- <!--Experiencias Laborales formales e informales-->    
-    <section id="experiencia">
+    <!--Experiencias Laborales formales e informales-->
+    <section class="seccion">
         <h2>Experiencia Laboral</h2>
         <div>
             <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit ad nam sapiente quibusdam suscipit ullam, aut unde ipsam hic, excepturi ipsum quas odit officiis odio sint aspernatur. Officia, quibusdam voluptatem!
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit ad nam sapiente quibusdam suscipit
+                ullam, aut unde ipsam hic, excepturi ipsum quas odit officiis odio sint aspernatur. Officia, quibusdam
+                voluptatem!
             </p>
         </div>
     </section>
- <!--Habilidades duras y suaves-->    
-    <section id="habilidades">
+    <!--Habilidades duras y suaves-->
+    <section class="seccion">
         <h2>Habilidades</h2>
         <div>
             <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit ad nam sapiente quibusdam suscipit ullam, aut unde ipsam hic, excepturi ipsum quas odit officiis odio sint aspernatur. Officia, quibusdam voluptatem!
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit ad nam sapiente quibusdam suscipit
+                ullam, aut unde ipsam hic, excepturi ipsum quas odit officiis odio sint aspernatur. Officia, quibusdam
+                voluptatem!
             </p>
         </div>
     </section>
- <!--Formacion principal y secundaria-->    
-    <section id="educacion">
+    <!--Formacion principal y secundaria-->
+    <section class="seccion">
         <h2>Educacion</h2>
         <div>
             <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit ad nam sapiente quibusdam suscipit ullam, aut unde ipsam hic, excepturi ipsum quas odit officiis odio sint aspernatur. Officia, quibusdam voluptatem!
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit ad nam sapiente quibusdam suscipit
+                ullam, aut unde ipsam hic, excepturi ipsum quas odit officiis odio sint aspernatur. Officia, quibusdam
+                voluptatem!
             </p>
         </div>
     </section>
- <!--Proyectos de IT realizados-->
-    <section id="proyectos">
+    <!--Proyectos de IT realizados-->
+    <section class="seccion">
         <h2>Proyectos</h2>
         <div>
             <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit ad nam sapiente quibusdam suscipit ullam, aut unde ipsam hic, excepturi ipsum quas odit officiis odio sint aspernatur. Officia, quibusdam voluptatem!
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit ad nam sapiente quibusdam suscipit
+                ullam, aut unde ipsam hic, excepturi ipsum quas odit officiis odio sint aspernatur. Officia, quibusdam
+                voluptatem!
             </p>
         </div>
     </section>
- <!--Hobbies, metas y otros objetivos-->    
-    <section id="hobbies">
+    <!--Hobbies, metas y otros objetivos-->
+    <section class="seccion">
         <h2>Hobbies</h2>
         <h4><label for="">Valorant</label></h4>
         <br>
-        <iframe width="300" height="215" src="https://www.youtube.com/embed/h7MYJghRWt0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="300" height="215" src="https://www.youtube.com/embed/h7MYJghRWt0" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
     </section>
- <!--Seccion de datos de contacto-->
- <section id="contacto">
-    <h2>Contacto</h2>    
-    <h3>Mi barrio</h3>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13136.963312857808!2d-58.4411486!3d-34.59807125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca0c687ee0b7%3A0x879b67a1fd77fb98!2sVilla%20Crespo%2C%20CABA!5e0!3m2!1ses!2sar!4v1668786763253!5m2!1ses!2sar" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    <br>
-    <br>
-    <label for="">Dejame tu mensaje, me contactare a la brevedad</label>
-    </label><input type="text" placeholder="Escribe tu mensaje">
- </section>
+    <!--Seccion de datos de contacto-->
+    <section class="seccion">
+        <h2>Contacto</h2>
+        <h3>Mi barrio</h3>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13136.963312857808!2d-58.4411486!3d-34.59807125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca0c687ee0b7%3A0x879b67a1fd77fb98!2sVilla%20Crespo%2C%20CABA!5e0!3m2!1ses!2sar!4v1668786763253!5m2!1ses!2sar"
+            width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <br>
+        <br>
+        <label for="">Dejame tu mensaje, me contactare a la brevedad</label>
+        </label><input type="text" placeholder="Escribe tu mensaje">
+    </section>
 
+    <!--MODALES-->
+    <!-- Login -->
+    <div class="modal fade" id="LoginModal" tabindex="-1" aria-labelledby="LoginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="LoginModalLabel">Ingrese sus datos</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
