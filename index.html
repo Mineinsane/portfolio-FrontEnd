@@ -14,70 +14,106 @@
 </head>
 
 <body>
-    <!--Navbar-->
-    <nav class="navbar navbar-dark bg-primary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="assets\img\Arg Programa.png" alt=""></a>
+    <section id="navbar">
+        <!--Navbar-->
+        <nav class="navbar navbar-dark bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="assets\img\Arg Programa.png" alt=""></a>
 
-            <div class="d-flex justify-content-end">
+                <div class="d-flex justify-content-end">
 
-                <!--Redes Sociales-->
-                <ul class="list-group list-group-horizontal-lg">
-                    <li class="list-group-item"><i class="fa-brands fa-linkedin-in"></i></li>
-                    <li class="list-group-item"><i class="fa-brands fa-github"></i></li>
-                    <li class="list-group-item"><i class="fa-brands fa-codepen"></i></li>
-                </ul>
+                    <!--Redes Sociales-->
+                    <ul class="list-group list-group-horizontal-lg">
+                        <li class="list-group-item"><i class="fa-brands fa-linkedin-in"></i></li>
+                        <li class="list-group-item"><i class="fa-brands fa-github"></i></li>
+                        <li class="list-group-item"><i class="fa-brands fa-codepen"></i></li>
+                    </ul>
 
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#LoginModal">
-                    Iniciar Sesion
-                </button>
-                <!--Boton Cerrar Sesion-->
-                <button type="button" class="btn btn-danger">
-                    Cerrar Sesion
-                </button>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#LoginModal">
+                        Iniciar Sesion
+                    </button>
+                    <!--Boton Cerrar Sesion-->
+                    <button type="button" class="btn btn-danger">
+                        Cerrar Sesion
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <section id="header">
+        <!--Header con nombre-->
+        <header>
+            <div class="container">
+                <div class="row gx-5">
+                    <div class="banner col-lg-12">
+                        <img src="assets\img\banner.jpg" alt="custom-banner" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row gx-5">
+                    <div class="about-me col-lg-12">
+                        <div class="row gx-5">
+                            <div class="col-lg-5 justify-content-center position-relative">
+                                <img src="assets\img\StockProfile.jpg" alt="Username"
+                                    class="img-fluid position-absolute translate-middle">
+                                <img src="assets\img\StockProfile.jpg" alt="Username"
+                                    class="img-fluid position-absolute translate-middle change-pic">
+                                <h1 id="dev-name">Demian Morozovich</h1>
+                                <h2 id="dev-title">Full Stack Developer Jr.</h2>
+                            </div>
+                            <div class="col-lg-7 d-flex align-items-center">
+                                <div class="container about-me-description">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <h3>SOBRE MI</h3>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio enim
+                                                quidem molestias nulla culpa quasi accusamus quod eum. Similique eos
+                                                quibusdam error? Repellat, delectus excepturi. Praesentium eveniet rerum
+                                                modi quidem? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                Distinctio enim quidem molestias nulla culpa quasi accusamus quod eum.
+                                                Similique eos quibusdam error? Repellat, delectus excepturi. Praesentium
+                                                eveniet rerum modi quidem?</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </section>
+
+    <!--Botones de Edicion-->
+    <section id="editSobre" class="bg-dark p-4 ">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <button class="btn btn-light">
+                        Editar Imagen
+                    </button>
+                </div>
+                <div class="col">
+                    <button class="btn btn-light">
+                        Editar Imagen
+                    </button>
+                </div>
+                <div class="col">
+                    <button class="btn btn-light">
+                        Editar "Sobre mi"
+                    </button>
+                </div>
             </div>
         </div>
-    </nav>
+    </section>
 
-    <!--Header con nombre-->
-    <header>
-		<div class="container">
-			<div class="row gx-5">
-				<div class="banner col-lg-12">
-					<img src="assets\img\banner.jpg" alt="custom-banner" class="img-fluid">
-				</div>
-			</div>
-		</div>
-		<div class="container">
-			<div class="row gx-5">
-				<div class="about-me col-lg-12">
-					<div class="row gx-5">
-						<div class="col-lg-5 justify-content-center position-relative">
-							<img src="assets\img\StockProfile.jpg" alt="Username" class="img-fluid position-absolute translate-middle">
-							<img src="assets\img\StockProfile.jpg" alt="Username" class="img-fluid position-absolute translate-middle change-pic">
-							<h1 id="dev-name">Demian Morozovich</h1>
-							<h2 id="dev-title">Full Stack Developer Jr.</h2>
-						</div>
-						<div class="col-lg-7 d-flex align-items-center">
-							<div class="container about-me-description">
-								<div class="row">
-									<div class="col-lg-12">
-										<h3>SOBRE MI</h3>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-lg-12">
-										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio enim quidem molestias nulla culpa quasi accusamus quod eum. Similique eos quibusdam error? Repellat, delectus excepturi. Praesentium eveniet rerum modi quidem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio enim quidem molestias nulla culpa quasi accusamus quod eum. Similique eos quibusdam error? Repellat, delectus excepturi. Praesentium eveniet rerum modi quidem?</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	  </header>
     <!--Experiencias Laborales formales e informales-->
     <section class="seccion">
         <h2>Experiencia Laboral</h2>
