@@ -41,24 +41,43 @@
     </nav>
 
     <!--Header con nombre-->
-    <section class="seccion">
-        <h1 id="nombre">Demian Morozovich</h1>
-    </section>
-
-    <!--Seccion Sobre Mi-->
-    <section class="seccion">
-        <h2>Sobre Mi</h2>
-        <div>
-            <img src="" alt="Imagen Perfil">
-        </div>
-        <div>
-            <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit ad nam sapiente quibusdam suscipit
-                ullam, aut unde ipsam hic, excepturi ipsum quas odit officiis odio sint aspernatur. Officia, quibusdam
-                voluptatem!
-            </p>
-        </div>
-    </section>
+    <header>
+		<div class="container">
+			<div class="row gx-5">
+				<div class="banner col-lg-12">
+					<img src="assets\img\banner.jpg" alt="custom-banner" class="img-fluid">
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row gx-5">
+				<div class="about-me col-lg-12">
+					<div class="row gx-5">
+						<div class="col-lg-5 justify-content-center position-relative">
+							<img src="assets\img\StockProfile.jpg" alt="Username" class="img-fluid position-absolute translate-middle">
+							<img src="assets\img\StockProfile.jpg" alt="Username" class="img-fluid position-absolute translate-middle change-pic">
+							<h1 id="dev-name">Demian Morozovich</h1>
+							<h2 id="dev-title">Full Stack Developer Jr.</h2>
+						</div>
+						<div class="col-lg-7 d-flex align-items-center">
+							<div class="container about-me-description">
+								<div class="row">
+									<div class="col-lg-12">
+										<h3>SOBRE MI</h3>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-12">
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio enim quidem molestias nulla culpa quasi accusamus quod eum. Similique eos quibusdam error? Repellat, delectus excepturi. Praesentium eveniet rerum modi quidem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio enim quidem molestias nulla culpa quasi accusamus quod eum. Similique eos quibusdam error? Repellat, delectus excepturi. Praesentium eveniet rerum modi quidem?</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	  </header>
     <!--Experiencias Laborales formales e informales-->
     <section class="seccion">
         <h2>Experiencia Laboral</h2>
@@ -139,12 +158,12 @@
                 <div class="modal-body">
                     <form>
                         <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Email</label>
+                            <label id="modal" for="exampleInputEmail1" class="form-label">Email</label>
                             <input type="email" class="form-control" id="exampleInputEmail1"
                                 aria-describedby="emailHelp">
                         </div>
                         <div class="mb-3">
-                            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                            <label id="modal" for="exampleInputPassword1" class="form-label">Contraseña</label>
                             <input type="password" class="form-control" id="exampleInputPassword1">
                         </div>
                 </div>
