@@ -4,3 +4,5 @@
 - 18/11/22 Elaboracion inicial de la maqueta HTML
 - 20/11/22 Navbar, Botones de login y logout, placeholders
 - 28/11/22 Banner, imagen del banner, seccion con padding y about me organizado, foto de perfil
+- 29/11/22 Botones de edicion modales (banner)
+- 30/11/22 Projects Placeholders, Experience cards completed, Botones de edicion modales (Experiencia)
