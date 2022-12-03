@@ -122,10 +122,20 @@ ul li {
 #cobranzas {
 	object-fit: fill;
 	padding-top: 20%;
+	padding-bottom: 35%;
 }
 
 .projectImage {
 	width: 35%;
 	height: 35%;
 	;
+}
+
+.progress{
+	justify-content: center;
+}
+
+.deleteCard{
+	padding-left: 4%;
+	padding-top: 2%;
 }
