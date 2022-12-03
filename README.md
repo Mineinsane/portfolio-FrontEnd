@@ -6,3 +6,4 @@
 - 28/11/22 Banner, imagen del banner, seccion con padding y about me organizado, foto de perfil
 - 29/11/22 Botones de edicion modales (banner)
 - 30/11/22 Projects Placeholders, Experience cards completed, Botones de edicion modales (Experiencia)
+- 3/12/22  Terminar maqueta estatica frontEnd
