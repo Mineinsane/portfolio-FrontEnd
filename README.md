@@ -8,3 +8,4 @@
 - 30/11/22 Projects Placeholders, Experience cards completed, Botones de edicion modales (Experiencia)
 - 03/12/22 Terminar maqueta estatica frontEnd
 - 04/12/22 Inicio de la maqueta dinamica
+- 07/12/22 Componentes de angular
