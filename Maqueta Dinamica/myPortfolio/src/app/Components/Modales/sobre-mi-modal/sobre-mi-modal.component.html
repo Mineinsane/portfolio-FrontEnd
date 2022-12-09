@@ -1,1 +1,44 @@
-<p>sobre-mi-modal works!</p>
+<!--Editar Sobre Mi-->
+<div
+  class="modal fade"
+  id="editarSobreMiModal"
+  tabindex="-1"
+  aria-labelledby="editarSobreMiModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="editarSobreMiModal">
+          Modifique el texto deseado
+        </h1>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label"
+              >Nueva descripcion</label
+            >
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="6"
+            ></textarea>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+          Cancelar
+        </button>
+        <button type="button" class="btn btn-primary">Guardar Cambios</button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -26,6 +26,10 @@ import { Skill1Component } from './Components/Modales/Skills/skill1/skill1.compo
 import { Skill2Component } from './Components/Modales/Skills/skill2/skill2.component';
 import { Skill3Component } from './Components/Modales/Skills/skill3/skill3.component';
 import { Skill4Component } from './Components/Modales/Skills/skill4/skill4.component';
+import { EditSobreMiComponent } from './Components/Botones/edit-sobre-mi/edit-sobre-mi.component';
+import { EditBannerComponent } from './Components/Botones/edit-banner/edit-banner.component';
+import { EditProfileComponent } from './Components/Botones/edit-profile/edit-profile.component';
+import { BotonesBannerComponent } from './Components/botones-banner/botones-banner.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +56,11 @@ import { Skill4Component } from './Components/Modales/Skills/skill4/skill4.compo
     Skill1Component,
     Skill2Component,
     Skill3Component,
-    Skill4Component
+    Skill4Component,
+    EditSobreMiComponent,
+    EditBannerComponent,
+    EditProfileComponent,
+    BotonesBannerComponent
   ],
   imports: [
     BrowserModule,

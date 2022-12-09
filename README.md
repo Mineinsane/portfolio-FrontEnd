@@ -9,3 +9,4 @@
 - 03/12/22 Terminar maqueta estatica frontEnd
 - 04/12/22 Inicio de la maqueta dinamica
 - 07/12/22 Componentes de angular
+- 08/12/22 Pase de maqueta estatica a componentes angular
