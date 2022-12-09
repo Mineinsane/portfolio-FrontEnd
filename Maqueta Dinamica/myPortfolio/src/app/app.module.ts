@@ -30,6 +30,13 @@ import { EditSobreMiComponent } from './Components/Botones/edit-sobre-mi/edit-so
 import { EditBannerComponent } from './Components/Botones/edit-banner/edit-banner.component';
 import { EditProfileComponent } from './Components/Botones/edit-profile/edit-profile.component';
 import { BotonesBannerComponent } from './Components/botones-banner/botones-banner.component';
+import { Tarjeta1Component } from './Components/Experiencia/tarjeta1/tarjeta1.component';
+import { Tarjeta2Component } from './Components/Experiencia/tarjeta2/tarjeta2.component';
+import { Tarjeta3Component } from './Components/Experiencia/tarjeta3/tarjeta3.component';
+import { BotonesExperienciaComponent } from './Components/Experiencia/botones-experiencia/botones-experiencia.component';
+import { EditarTarjetaXp1Component } from './Components/Botones/editar-tarjeta-xp1/editar-tarjeta-xp1.component';
+import { EditarTarjetaXp2Component } from './Components/Botones/editar-tarjeta-xp2/editar-tarjeta-xp2.component';
+import { EditarTarjetaXp3Component } from './Components/Botones/editar-tarjeta-xp3/editar-tarjeta-xp3.component';
 
 @NgModule({
   declarations: [
@@ -60,7 +67,14 @@ import { BotonesBannerComponent } from './Components/botones-banner/botones-bann
     EditSobreMiComponent,
     EditBannerComponent,
     EditProfileComponent,
-    BotonesBannerComponent
+    BotonesBannerComponent,
+    Tarjeta1Component,
+    Tarjeta2Component,
+    Tarjeta3Component,
+    BotonesExperienciaComponent,
+    EditarTarjetaXp1Component,
+    EditarTarjetaXp2Component,
+    EditarTarjetaXp3Component
   ],
   imports: [
     BrowserModule,

@@ -1,1 +1,142 @@
 /* You can add global styles to this file, and also import other style files */
+/* ETIQUETAS van con directamente el nombre */
+/* CLASES va con "." adelante */
+/* ID va con "#" adelante */
+
+/* COLOR PALETTE
+
+#cbc0d3 - Body Background
+#ffc8dd -
+#ffafcc -
+#bde0fe -
+#735d78 - Body Text
+#feeafa - Section Background
+
+*/
+
+body {
+	background-color: #cbc0d3;
+	color: #735d78;
+}
+
+/* BANNER + ABOUT_ME PROFILE */
+
+.banner img {
+	max-width: 100%;
+	object-fit: cover;
+
+}
+
+.banner {
+	padding: 0 !important;
+	position: relative;
+	height: 40vh;
+	width: 100%;
+}
+
+.about-me {
+	background-color: #feeafa;
+	position: relative;
+	text-align: center;
+}
+
+.about-me img {
+	border-radius: 50%;
+	width: 350px;
+	height: 350px;
+	position: relative;
+	/*top: -40%; */
+	border: 5px double var(--main-color);
+}
+
+.about-me h1 {
+	padding-top: 190px;
+}
+
+.about-me h2 {
+	font-style: italic;
+}
+
+.about-me-description {
+	padding: 2%;
+	border: 1px solid ba(0, 0, 0, .5);
+	border-radius: 10px;
+}
+
+.about-me-description h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	color: #8e9aaf;
+	font-size: 2.5em;
+}
+
+/* SECTIONS */
+
+.section .row {
+	background-color: #feeafa;
+	justify-content: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.panel {
+	border: 2px solid #735d78;
+	border-radius: 10px;
+	padding: 20px;
+	width: 90%;
+	height: 90%;
+}
+
+.section-title {
+	font-family: 'Merriweather', serif;
+	font-weight: 700;
+	color: #735d78;
+	text-align: center;
+}
+
+.card-img-top {
+	object-fit: scale-down;
+}
+
+ul li {
+	list-style-type: none;
+	margin-left: -2.5%;
+}
+
+.derecha {
+	float: right;
+}
+
+.modal {
+	font-size: 1rem;
+	color: #735d78;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.modalField {
+	text-align: center;
+}
+
+#cobranzas {
+	object-fit: fill;
+	padding-top: 20%;
+	padding-bottom: 35%;
+}
+
+.projectImage {
+	width: 35%;
+	height: 35%;
+	;
+}
+
+.progress{
+	justify-content: center;
+}
+
+.deleteCard{
+	padding-left: 4%;
+	padding-top: 2%;
+}
