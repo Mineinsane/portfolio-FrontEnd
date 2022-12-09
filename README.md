@@ -10,4 +10,4 @@
 - 04/12/22 Inicio de la maqueta dinamica
 - 07/12/22 Componentes de angular
 - 08/12/22 Pase de maqueta estatica a componentes angular
-- 09/12/22 Componentes de Experiencia y Banner
+- 09/12/22 Componentes de Banner, Experiencia, Habilidades

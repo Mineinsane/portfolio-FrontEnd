@@ -37,6 +37,16 @@ import { BotonesExperienciaComponent } from './Components/Experiencia/botones-ex
 import { EditarTarjetaXp1Component } from './Components/Botones/editar-tarjeta-xp1/editar-tarjeta-xp1.component';
 import { EditarTarjetaXp2Component } from './Components/Botones/editar-tarjeta-xp2/editar-tarjeta-xp2.component';
 import { EditarTarjetaXp3Component } from './Components/Botones/editar-tarjeta-xp3/editar-tarjeta-xp3.component';
+import { Skill1Component } from './Components/Skills/skill1/skill1.component';
+import { Skill2Component } from './Components/Skills/skill2/skill2.component';
+import { Skill3Component } from './Components/Skills/skill3/skill3.component';
+import { Skill4Component } from './Components/Skills/skill4/skill4.component';
+import { ModalSkill1Component } from './Components/Modales/Skills/modal-skill1/modal-skill1.component';
+import { ModalSkill2Component } from './Components/Modales/Skills/modal-skill2/modal-skill2.component';
+import { ModalSkill3Component } from './Components/Modales/Skills/modal-skill3/modal-skill3.component';
+import { ModalSkill4Component } from './Components/Modales/Skills/modal-skill4/modal-skill4.component';
+import { AgregarProyectosComponent } from './Components/Botones/agregar-proyectos/agregar-proyectos.component';
+import { EditarEducacionComponent } from './Components/Educacion/editar-educacion/editar-educacion.component';
 
 @NgModule({
   declarations: [
@@ -60,10 +70,6 @@ import { EditarTarjetaXp3Component } from './Components/Botones/editar-tarjeta-x
     PrimerTarjetaXpModalComponent,
     SegundaTarjetaXpModalComponent,
     TercerTarjetaXpModalComponent,
-    Skill1Component,
-    Skill2Component,
-    Skill3Component,
-    Skill4Component,
     EditSobreMiComponent,
     EditBannerComponent,
     EditProfileComponent,
@@ -74,7 +80,17 @@ import { EditarTarjetaXp3Component } from './Components/Botones/editar-tarjeta-x
     BotonesExperienciaComponent,
     EditarTarjetaXp1Component,
     EditarTarjetaXp2Component,
-    EditarTarjetaXp3Component
+    EditarTarjetaXp3Component,
+    Skill1Component,
+    Skill2Component,
+    Skill3Component,
+    Skill4Component,
+    ModalSkill1Component,
+    ModalSkill2Component,
+    ModalSkill3Component,
+    ModalSkill4Component,
+    AgregarProyectosComponent,
+    EditarEducacionComponent,
   ],
   imports: [
     BrowserModule,
